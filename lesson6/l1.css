@@ -1,62 +1,60 @@
-
- .subscribe-button{
- 
-     background-color:rgb(200,0,0);
-     color:white;
-     border:none;
-     height:36;
-     width: 105px;
-     border-radius:2px;
-     cursor:pointer;
-     margin-right:8px;
-     transition:opacity 1s;
- }
- .subscribe-button:hover{
-  
-       background-color:green;
-        opacity:0.6;
- }
- .subscribe-button:active{
-     background-color:blue;
-     opacity:0.4;
- }
- .join-button{
-    background-color:white;
-    border-color:rgb(41,118,211);
-    border-style:solid;
-    border-width:1px;
-    color:rgb(41,118,211);
-    height:36px;
-    width:62px;
-    border-radius:2px;
-    cursor:pointer;
-    transition:background-color 0.15s,
-      color 1s;
-
- }
-  .join-button:hover{
-     background-color:rgb(41,118,211);
-     color:white;
-
+  p{
+        font-family:Arial;
+        margin-top:0px;
+        margin-bottom:px;
     }
- .join-button:active{
-     opacity:0.7;
- }
- .tweet-button{
-     background-color:rgb(2,158,255);
-     color:white;
-     border:none;
-     height:36px;
-     width:74px;
-     border-radius:18px;
-     font-weight:bold;
-     font-size:15px;
-     cursor:pointer;
-     margin-left:8px;
-    transition:box-shadow 0.15s;
+.video-title{
+ font-family:Arial;
+ font-weight:bold;
+ font-size:18px;
+ width:280px;
+ line-height:24px;
+ margin-bottom:5px;
 
-     }
- .tweet-button:hover{
-   box-shadow:10px  10px 10px rgb(0,0,0,0.15);
-      }
-     
+}
+.video-status{
+    font-family:Arial;
+    font-size:14px;
+    color:grey;
+    
+    margin-bottom:20;
+}
+.video-author{
+    font-family:Arial;
+    font-size:14px;
+    color:grey;
+   margin-bottom:0;
+}
+.video-description{
+    font-family:Arial;
+    font-size:14px;
+    color:grey;
+   margin-bottom:100px;
+    width:280px;
+    line-height:22px;
+}
+.apple-text{
+    margin-bottom:50px;
+    font-size:14px;
+    background-color:rgb(227,65,64);
+    color:white;
+    text-align:center;
+    padding:18px;
+    
+}
+
+.span-example{
+      margin-left:12px;
+   
+    color:red;
+}
+ .span-example:hover{
+    text-decoration:underline;
+   
+   }
+   .shop-link{
+       cursor:pointer;
+   }
+.shop-link:hover{
+        text-decoration:underline;
+       }
